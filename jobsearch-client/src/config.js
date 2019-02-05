@@ -1,6 +1,6 @@
 const local = {
-  AUTH0_DOMAIN: "caryeer-us.auth0.com",
-  AUTH0_CLIENTID: "2JQbpMVTRCC3A09JM90Pq_StIwZX1L6s",
+  AUTH0_DOMAIN: "{YOUR AUTH0 DOMAIN}",
+  AUTH0_CLIENTID: "{YOUR AUTH0 CLIENT_ID}",
   AUTH0_CALLBACKURL: "http://localhost:3000/callback",
   AUTH0_LOGOUT_URL: "http://localhost:3000/login",
   JOBSEARCH_API_URL: "http://localhost:4000/leads",
@@ -8,8 +8,8 @@ const local = {
 };
 
 const localWithProdAPI = {
-  AUTH0_DOMAIN: "caryeer-us.auth0.com",
-  AUTH0_CLIENTID: "2JQbpMVTRCC3A09JM90Pq_StIwZX1L6s",
+  AUTH0_DOMAIN: "{YOUR AUTH0 DOMAIN}",
+  AUTH0_CLIENTID: "{YOUR AUTH0 CLIENT_ID}",
   AUTH0_CALLBACKURL: "http://localhost:3000/callback",
   AUTH0_LOGOUT_URL: "http://localhost:3000/login",
   JOBSEARCH_API_URL: "https://api.caryeer.com/dev/leads",
@@ -17,8 +17,8 @@ const localWithProdAPI = {
 };
 
 const dev = {
-  AUTH0_DOMAIN: "caryeer-us.auth0.com",
-  AUTH0_CLIENTID: "2JQbpMVTRCC3A09JM90Pq_StIwZX1L6s",
+  AUTH0_DOMAIN: "{YOUR AUTH0 DOMAIN}",
+  AUTH0_CLIENTID: "{YOUR AUTH0 CLIENT_ID}",
   AUTH0_CALLBACKURL: "http://test-jobsearch-client.s3-website-us-east-1.amazonaws.com/callback",
   AUTH0_LOGOUT_URL: "http://test-jobsearch-client.s3-website-us-east-1.amazonaws.com/login",
   //AUTH0_CALLBACKURL: "https://jobsearch.caryeer.com/callback",
@@ -27,8 +27,8 @@ const dev = {
 };
 
 // const prodhttp = {
-//   AUTH0_DOMAIN: "caryeer-us.auth0.com",
-//   AUTH0_CLIENTID: "2JQbpMVTRCC3A09JM90Pq_StIwZX1L6s",
+//   AUTH0_DOMAIN: "{YOUR AUTH0 DOMAIN}",
+//   AUTH0_CLIENTID: "{YOUR AUTH0 CLIENT_ID}",
 //   AUTH0_CALLBACKURL: "http://jobsearch.caryeer.com/callback",
 //   AUTH0_LOGOUT_URL: "http://jobsearch.caryeer.com/login",
 //   JOBSEARCH_API_URL: "https://api.caryeer.com/dev/leads",
@@ -37,8 +37,8 @@ const dev = {
 
 
 const prod = {
-  AUTH0_DOMAIN: "caryeer-us.auth0.com",
-  AUTH0_CLIENTID: "2JQbpMVTRCC3A09JM90Pq_StIwZX1L6s",
+  AUTH0_DOMAIN: "{YOUR AUTH0 DOMAIN}",
+  AUTH0_CLIENTID: "{YOUR AUTH0 CLIENT_ID}",
   AUTH0_CALLBACKURL: "https://jobsearch.caryeer.com/callback",
   AUTH0_LOGOUT_URL: "https://jobsearch.caryeer.com/login",
   JOBSEARCH_API_URL: "https://api.caryeer.com/dev/leads",
