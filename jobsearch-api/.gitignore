@@ -1,0 +1,9 @@
+# package directories
+node_modules
+jspm_packages
+
+# local dynamodb directories used by dynamodb-local plugin
+.dynamodb
+
+# Serverless directories
+.serverless
